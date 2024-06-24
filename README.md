@@ -1,8 +1,37 @@
-# React + Vite
+# React-SmallIDE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React-SmallIDE est une application web développée en React et utilisant Vite comme outil de build. Elle offre une
+interface minimaliste pour éditer et exécuter du code.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React-SmallIDE est une petite interface de développement intégrée (IDE) construite avec React. Elle utilise Redux pour
+la gestion de l'état et Heroicons pour les icônes. L'application offre des fonctionnalités telles que l'édition de code
+et l'exécution de l'application.
+
+## Installation
+
+Pour installer et configurer le projet, suivez les instructions ci-dessous :
+
+```bash
+# Clonez le dépôt
+git clone https://github.com/jivadio/React-SmallIDE.git
+
+# Allez dans le dossier du projet
+cd React-SmallIDE
+
+# Installez les dépendances
+npm install
+```
+
+## Utilisation
+
+Pour utiliser l'application, exécutez la commande suivante :
+
+```bash
+npm run dev
+```
+
+## Contact
+
+Si vous avez des questions ou des problèmes concernant ce projet, veuillez ouvrir une issue sur GitHub.
