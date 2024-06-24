@@ -7,10 +7,10 @@ const initialState = [
         lang: 'html',
         imageUrl: html,
         buttonContent: 'index.html',
-        code: `
-        <div>
-            <h1>Hello World</h1>
-        </div>
+        code: `<div>
+    <h1>Éditeur de code sur navigateur avec React</h1>
+    <p>Codez directement ici !</p>
+</div>
 `
     },
     {
@@ -18,20 +18,16 @@ const initialState = [
         lang: 'css',
         imageUrl: css,
         buttonContent: 'style.css',
-        code: `
-        h1 {
-            color: red;
-        }
-        `
+        code: `h1 {
+    color: red;
+}`
     },
     {
         id: 3,
         lang: 'javascript',
         imageUrl: js,
         buttonContent: 'script.js',
-        code: `
-        console.log('Hello World');
-        `
+        code: `console.log('Hello World');`
     }
 ]
 
