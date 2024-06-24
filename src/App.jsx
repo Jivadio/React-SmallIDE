@@ -1,5 +1,6 @@
 import {AdjustmentsVerticalIcon} from "@heroicons/react/24/solid/index.js";
 import Tabs from "./components/Tabs";
+import PreviewButton from "./components/PreviewButton.jsx";
 
 function App() {
     return (
@@ -7,7 +8,7 @@ function App() {
             <div className="p-4 border-b flex items-center">
                 <h1 className="w-full text-slate-50 text-2xl">React-<span className="text-xs">Small</span>IDE</h1>
                 <div className="w-full">
-                    <button>Voir la preview</button>
+                    <PreviewButton/>
                 </div>
                 <div className="w-full flex">
                     <div className="ml-auto mr-2">
