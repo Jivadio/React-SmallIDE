@@ -24,7 +24,7 @@ const initialState = [
     },
     {
         id: 3,
-        lang: 'javascript',
+        lang: 'js',
         imageUrl: js,
         buttonContent: 'script.js',
         code: `console.log('Hello World');`
